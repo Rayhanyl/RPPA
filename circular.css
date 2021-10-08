@@ -1,0 +1,40 @@
+body
+{
+  margin:0;
+  padding:0;
+  background-color: #E0D6CA;
+}
+ 
+#counter
+{
+  /*background-color: red;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+ 
+.bulet{
+  width: 165px;
+  height: 165px;
+  background: #696867;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+ 
+.blur{
+ width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 0 6px rgba(0,0,0,.5);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
